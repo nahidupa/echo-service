@@ -1,5 +1,5 @@
 # Start from the official Go 1.17 image
-FROM golang:1.17
+FROM docker.io/golang:1.17
 
 # Set the current working directory inside the container
 WORKDIR /app
